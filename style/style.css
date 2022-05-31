@@ -1,0 +1,81 @@
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .snip {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .money-container {
+            height: 20vh;
+        }
+        
+        .image-container {
+            height: 50vh;
+            display: flex;
+        }
+        
+        .plant-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: scroll;
+        }
+        
+        div {
+            background-color: #D9F29E;
+        }
+        
+        .button-container {
+            height: 15vh;
+        }
+        
+        button {
+            padding: 1rem;
+            margin: 1rem;
+            color: white;
+            font: bold arial;
+            font-size: 1rem;
+            border-radius: 12px;
+        }
+        
+        #feed {
+            background-color: rgba(187, 71, 21, 0.583);
+        }
+        
+        #water {
+            background-color: rgb(67, 128, 175);
+        }
+        
+        #enlighten {
+            background-color: rgb(243, 214, 51);
+        }
+        
+        #snip {
+            background-color: green;
+        }
+        
+        .moneyDiff {
+            position: relative;
+            animation: mymove 1s infinite;
+            color: red;
+        }
+        
+        @keyframes mymove {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        .moneyStyle {
+            font-size: 5em;
+        }
